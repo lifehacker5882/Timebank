@@ -1,0 +1,20 @@
+h1.habout1 {
+    font-size: 50;
+    color:white;
+    text-align: center;
+}
+
+p.pabout1 {
+    font-size: 20;
+    color:white;
+    text-align: center;
+}
+
+p.pabout2 {
+    font-size: 12;
+    color:white;
+}
+
+body.aboutb {
+    background-color: #008080;
+}
