@@ -1,20 +1,58 @@
-h1.habout1 {
+.about-welcome {
     font-size: 50;
     color:white;
-    text-align: center;
+    text-align: left;
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 0;
 }
 
-p.pabout1 {
+.about-p1 {
     font-size: 20;
     color:white;
-    text-align: center;
+    text-align: left;
+    background-color: teal; 
+    padding: 20px;
+    margin-top: 0;
 }
 
-p.pabout2 {
-    font-size: 12;
+.about-p2 {
+    font-size: 20;
     color:white;
+    text-align: left;
+    background-color: teal; 
+    padding: 20px;
+    margin-top: 0;
 }
 
-body.aboutb {
-    background-color: #008080;
+.about-what {
+    font-size: 50;
+    color:white;
+    background-color: teal;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.about-us {
+    background-color:white;
+}
+
+.about-footer {
+    background-color: teal;
+    font-size: 20;
+    color: white;
+    padding: 20px;
+}
+
+.name {
+    background-color: teal;
+    font-size: 15;
+    color: white;
+}
+
+.about-picture {
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
 }
