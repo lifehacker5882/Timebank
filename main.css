@@ -1,10 +1,16 @@
 .about-welcome {
-    font-size: 50;
+    font-size: 100;
     color:white;
     text-align: left;
     background-color: teal;
     padding: 20px;
     margin-bottom: 0;
+    text-align: left;
+}
+
+.logo {
+    float: left;
+    width: 20%;
 }
 
 .about-p1 {
@@ -14,6 +20,7 @@
     background-color: teal; 
     padding: 20px;
     margin-top: 0;
+    text-align: left;
 }
 
 .about-p2 {
@@ -23,6 +30,16 @@
     background-color: teal; 
     padding: 20px;
     margin-top: 0;
+    clear: left;
+
+}
+
+.about-p3 {
+    font-size: 20;
+    color:white;
+    background-color: teal; 
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .about-what {
@@ -49,10 +66,30 @@
     background-color: teal;
     font-size: 15;
     color: white;
+    width: 170px;
 }
 
 .about-picture {
-    width: 50%;
+    width: 30%;
     height: auto;
     margin-left: 20px;
+    float: left;
+}
+
+.about-gpicture {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 0 10px 0 0;
+    margin-bottom: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.column {
+float: left;    
+width: 33.33%;
+padding: 15px;
 }
